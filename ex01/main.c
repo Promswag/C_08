@@ -6,7 +6,7 @@
 /*   By: gbaumgar <gbaumgar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/24 19:31:37 by gbaumgar          #+#    #+#             */
-/*   Updated: 2022/01/24 19:32:46 by gbaumgar         ###   ########.fr       */
+/*   Updated: 2022/01/24 21:10:51 by gbaumgar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,4 @@ int	main(int argc, char **argv)
 	else
 		ft_putstr(ODD_MSG);
 	return (SUCCESS);
-}
+}	

@@ -6,7 +6,7 @@
 /*   By: gbaumgar <gbaumgar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 15:04:23 by gbaumgar          #+#    #+#             */
-/*   Updated: 2022/01/25 18:58:03 by gbaumgar         ###   ########.fr       */
+/*   Updated: 2022/01/26 11:40:42 by gbaumgar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,8 @@ void	ft_putnbr(int nb)
 
 void	ft_show_tab(struct s_stock_str *par)
 {
+	if (*(par->str) == 0)
+		return ;
 	write(1, par->str, par->size);
 	write(1, "\n", 1);
 	ft_putnbr(par->size);
